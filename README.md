@@ -1,7 +1,8 @@
 # Elder-Guardian
 Developed by Cyan with ❤️  
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/github/license/hoony6134/Elder-Guardian.svg)](https://github.com/hoony6134/Elder-Guardian) <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Arduino' src='https://img.shields.io/badge/Made_for Arduino-100000?style=flat&logo=Arduino&logoColor=white&labelColor=00979D&color=black'/></a> [![contributions - welcome](https://img.shields.io/badge/contributions-welcome-blue)](/CONTRIBUTING.md "Go to contributions doc") ![maintained - yes](https://img.shields.io/badge/maintained-yes-blue)<br>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Arduino' src='https://img.shields.io/badge/Arduino_UNO-100000?style=flat&logo=Arduino&logoColor=white&labelColor=00979D&color=00979D'/></a> <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Arduino' src='https://img.shields.io/badge/WeMos_D1 R1-100000?style=flat&logo=Arduino&logoColor=white&labelColor=00979D&color=00979D'/></a> <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='adafruit' src='https://img.shields.io/badge/Adafruit_Sensors-100000?style=flat&logo=adafruit&logoColor=white&labelColor=000000&color=000000'/></a>
 ## What is "Elder-Guardian"?
 Elder Guardian is a project to protect elders from strangers' approaching and unexpected falling. This is based on two Arduino boards called "Server Side" and "Sensor Side". We use 1 Arduino UNO board and 1 WeMos R1 D1 Board for Wi-Fi Server.
 ## Server Side
@@ -68,5 +69,12 @@ Sensor Side is a board based on Arduino UNO board that is connected to HY-SRF05(
 4. Attach Traffic LED Light and Extra Red LED, LCD to the front of your backpack or bag, clothes, or anything that you want to attach.
 5. Enclose the board with a case or something that can protect the board safe and sound.
 6. You can see the distance of stranger (or object) from the Ultra Sonic Sensor on the LCD Panel like this:  
-![LCD Panel](LCD_Example.PNG)
+![LCD Panel](LCD.JPG)
 7. If the distance is less than 10cm, the board will alert you with the buzzer and the LED, and the LCD Panel will show the small exclamanation mark (!)
+
+## Any Questions?
+If you have any questions, please don't hesitate to contact me via [email][def]!  
+Or you can open an issue or discussion on this repository.  
+Pull requests are also welcome!
+
+[def]: mailto:projects@scian.xyz
