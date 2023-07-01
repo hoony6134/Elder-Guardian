@@ -8,8 +8,8 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-char *ssid = "Sweet_Home"; // 와이파이 SSID
-char *password = "58af12kh69"; // 와이파이 비밀번호 (없을 경우 ""로)
+char *ssid = "SSID"; // 와이파이 SSID
+char *password = "PW"; // 와이파이 비밀번호 (없을 경우 ""로)
 
 const char CLIENT_REFRESH_INTERVAL_SECOND[] = "2"; // 초 단위로 클라이언트 측 새로고침 주기 설정
 
